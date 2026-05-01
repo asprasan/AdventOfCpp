@@ -8,6 +8,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/docs'
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
