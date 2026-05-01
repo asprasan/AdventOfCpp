@@ -2,6 +2,10 @@ site_name: Advent of C++
 site_url: https://asprasan.github.io/AdventOfCpp
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
