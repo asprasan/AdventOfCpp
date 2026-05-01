@@ -1,6 +1,8 @@
-# Welcome to MkDocs
+# Advent of CPP
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the documentation for Advent of CPP, a C++ learning project.
+
+Here, we will try to solve the puzzles in Advent of Code using C++. We will try to cover starting from 2015.
 
 ## Commands
 
