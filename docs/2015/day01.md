@@ -20,8 +20,7 @@ Once the input string is read, we can iterate through each character and keep tr
         }
     }
     std::cout<<"Santa's final floor: "<<soln1<<std::endl;
-    std::cout<<"First time Santa reaches the basement: "<<soln2<<std::endl;
-// floor now contains the final floor number
+// soln1 now contains the final floor number
 ```
 
 ## Part 2 solution
