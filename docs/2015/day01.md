@@ -48,3 +48,37 @@ In the second part of the problem, we need to determine the position of the firs
     std::cout<<"Santa's final floor: "<<soln1<<std::endl;
     std::cout<<"First time Santa reaches the basement: "<<soln2<<std::endl;
 ```
+
+## What I learned?
+
+### Reading files in C++
+
+In C++, we can read files using the `<fstream>` library. We create an `ifstream` object to read from a file, and we can use the `getline` function to read the file line by line. This allows us to process large files without loading the entire content into memory at once.
+
+```cpp
+#include <fstream>
+
+int main() {
+    std::ifstream file("input.txt");
+    std::string str;
+    while (getline(file, str)) {
+        // Process the line
+    }
+    return 0;
+}
+```
+
+### Iterating through characters in a string
+
+In C++, we can iterate through each character in a string using a range-based for loop. This allows us to easily access each character and perform operations based on its value.
+
+```cpp
+std::string str = "(()())";
+for (const char c : str) {
+    if (c == '(') {
+        // Do something for opening parenthesis
+    } else if (c == ')') {
+        // Do something for closing parenthesis
+    }
+}
+```
