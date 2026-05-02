@@ -1,4 +1,4 @@
-# Day 1
+# Day 2
 
 **Problem summary**: Given an input file containing dimensions of boxes, in the form `LxWxH`, calculate the total amount of wrapping paper needed to wrap all the boxes, and the total amount of ribbon needed to wrap all the boxes.
 
